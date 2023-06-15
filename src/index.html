@@ -2,7 +2,7 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LUCAS | BIRTHTDAY</title>
 
@@ -12,14 +12,99 @@
     <!-- font roboto condensed -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- css -->
     <link rel="stylesheet" href="./styles/main.scss" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header class="hero">
+      <div class="container">
+        <img
+          class="hero__logo"
+          src="./images/10_19.webp"
+          alt="happy birthday"
+        />
+        <p class="hero__text">
+          O meu aniversário irá acontecer em
+          <br />
+          <span id="contador"></span>
+        </p>
+        <div class="infos-bar">
+          <ul class="infos-bar__infos">
+            <li class="infos-bar__infos__item">
+              <b>Localização</b>
+              Allianz Parque - Barra Funda - SP
+            </li>
+            <li class="infos-bar__infos__item">
+              <b>Preço</b>
+              Gratuito
+            </li>
+            <li class="infos-bar__infos__item">
+              <b>Quando?</b>
+              18/06/2023 às 13:00
+            </li>
+          </ul>
+          <a class="button button--primary" href="#">Garanta seu convite</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="event event--aniversario">
+        <div class="container" data-aos="fade-right">
+          <div class="event__details">
+            <h1 class="event__details__title">Aniversário</h1>
+            <p class="event__details__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Architecto tempora, doloribus neque porro ex odit esse sit eveniet
+              accusamus ullam fuga eaque dignissimos rem! Enim atque esse ullam
+              corporis aut? Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Architecto tempora, doloribus neque porro ex odit esse sit
+              eveniet accusamus ullam fuga eaque dignissimos rem! Enim atque
+              esse ullam corporis aut?
+            </p>
+          </div>
+          <img class="event__image" src="./images/minha-foto.jpg" alt="minha foto">
+        </div>
+      </section>
+      <section class="event event--festa event--image-left">
+        <div class="container" data-aos="fade-left">
+          <div class="event__details">
+            <h1 class="event__details__title">O que terá na festa?</h1>
+            <p class="event__details__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Architecto tempora, doloribus neque porro ex odit esse sit eveniet
+              accusamus ullam fuga eaque dignissimos rem! Enim atque esse ullam
+              corporis aut? Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Architecto tempora, doloribus neque porro ex odit esse sit
+              eveniet accusamus ullam fuga eaque dignissimos rem! Enim atque
+              esse ullam corporis aut?
+            </p>
+          </div>
+          <img class="event__image" src="./images/play-5134828_640.png" alt="comemoracao">
+        </div>
+      </section>
+      <section class="event event--levar">
+        <div class="container" data-aos="fade-right">
+          <div class="event__details">
+            <h1 class="event__details__title">O que posso Levar?</h1>
+            <p class="event__details__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Architecto tempora, doloribus neque porro ex odit esse sit eveniet
+              accusamus ullam fuga eaque dignissimos rem! Enim atque esse ullam
+              corporis aut? Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Architecto tempora, doloribus neque porro ex odit esse sit
+              eveniet accusamus ullam fuga eaque dignissimos rem! Enim atque
+              esse ullam corporis aut?
+            </p>
+          </div>
+          <img class="event__image" src="./images/balloons-1786430_640.png" alt="baloes">
+        </div>
+      </section>
+    </main>
     <footer></footer>
 
     <!-- AOS script -->

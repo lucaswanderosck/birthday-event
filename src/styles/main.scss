@@ -1,4 +1,8 @@
 @use "variables";
+@use "hero";
+@use "components/buttons";
+@use "components/infos-bar";
+@use "event";
 
 * {
   margin: 0;
@@ -7,4 +11,22 @@
   list-style: none;
   text-decoration: none;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+
+  @media (max-width: 640px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 90%;
+    }
+  }
 }
